@@ -8,7 +8,7 @@ import { Submissions } from './submissions.model';
     <form #myForm="ngForm" (ngSubmit) = "submitForm(myForm)" class="col s12">
       <div class="row">
         <div class="input-field col s6">
-          <input [(ngModel)] = "submissions.firstName" name="first_name" id="first_name" type="text" class="validate">
+          <input [(ngModel)]="submissions.firstName" name="first_name" id="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
         <div class="input-field col s6">
