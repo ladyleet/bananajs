@@ -13,6 +13,7 @@ import { Component } from '@angular/core';
       </ul>
     </div>
   </nav>
+  <router-outlet></router-outlet>
 `
 })
 export class AppComponent {
